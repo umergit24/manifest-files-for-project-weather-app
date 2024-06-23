@@ -1,0 +1,1 @@
+# manifest-files-for-project-weather-app
