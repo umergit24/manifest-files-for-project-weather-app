@@ -71,7 +71,5 @@ The application has been updated.
 A look inside the configuration:
 ![Pasted image 20240623202013](https://github.com/umergit24/argo-cd-project-for-weather-app/assets/172115564/b0bb40a4-f265-4e0e-be50-84fa08f9d91a)
 
-Argo CD has created the service and the deployment automatically. This is very impressive.
+Argo CD has created the service and the deployment automatically!
 
-Now, let's change the nodeport to 5000 and see how long it takes for the update to be applied.
-update: it did(Dont have ss)
