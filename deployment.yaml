@@ -1,0 +1,35 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pythonapp-service
+spec:
+  selector:
+    app: pythonapp
+  ports:
+    - nodePort: 32410
+      protocol: "TCP"
+      port: 6000
+      targetPort: 3000
+  type: NodePort
+
+--- 
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pythonapp-deploy
+spec:
+  selector:
+    matchLabels:
+      app: pythonapp
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: pythonapp
+    spec:
+      containers:
+        - name: flask-test-app
+          image: docker.io/ukhan2003/pythonapp_image
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 3000
