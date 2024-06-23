@@ -63,13 +63,15 @@ spec:
 ```
 kubectl apply -f application.yaml
 ```
+![Pasted image 20240623200634](https://github.com/umergit24/manifest-files-for-project-weather-app/assets/172115564/fd314de3-ff02-4d20-8d00-fe8f3785dae0)
 
-![Pasted image 20240623200634](https://github.com/umergit24/argo-cd-project-for-weather-app/assets/172115564/2032d6d7-608c-4593-a5ea-ebe1dc228e30)
+
 
 The application has been updated.
 
 A look inside the configuration:
-![Pasted image 20240623202013](https://github.com/umergit24/argo-cd-project-for-weather-app/assets/172115564/b0bb40a4-f265-4e0e-be50-84fa08f9d91a)
+![Pasted image 20240623202013](https://github.com/umergit24/manifest-files-for-project-weather-app/assets/172115564/43b5f3d0-4907-4bb9-bf49-cc8041204d62)
+
 
 Argo CD has created the service and the deployment automatically!
 
