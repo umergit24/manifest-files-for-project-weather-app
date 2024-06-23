@@ -1,5 +1,3 @@
-# manifest-files-for-project-weather-app
-
 # argo-cd-project-for-weather-app
 argo cd with minikube
 
